@@ -20,7 +20,6 @@ export function Wordmark() {
       <Logo />
       <div className="leading-tight">
         <div className="font-display text-base font-semibold tracking-tight">DeceptIQ</div>
-        <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">by ThreatForge</div>
       </div>
     </div>
   );

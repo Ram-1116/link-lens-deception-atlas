@@ -22,7 +22,7 @@ function SettingsPage() {
   const [s, update] = useSettings();
   return (
     <>
-      <PageHeader title="Settings & privacy" subtitle="DeceptIQ is a hackathon prototype by ThreatForge (Dhruv Mishra, Devisha Patel, Khushi Srivastava)." />
+      <PageHeader title="Settings & privacy" subtitle="DeceptIQ is a web security analysis prototype." />
       <SignalGuide />
       <div className="grid gap-6 lg:grid-cols-2">
         <section className="panel space-y-4 p-6">
