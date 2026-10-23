@@ -26,7 +26,7 @@ function Reports() {
 
   const download = () => {
     if (!e) return;
-    const data = { product: "DeceptIQ", team: "ThreatForge", disclaimer: "This assessment uses the submitted URL and sample signals available in this prototype. It has not verified the live website. No passwords, OTPs or form values collected.", incident: e };
+    const data = { product: "DeceptIQ", disclaimer: "This assessment uses the submitted URL and sample signals available in this prototype. It has not verified the live website. No passwords, OTPs or form values collected.", incident: e };
     const a = document.createElement("a");
     a.href = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: "application/json" }));
     a.download = `deceptiq-report-${e.result.hostname}.json`;
