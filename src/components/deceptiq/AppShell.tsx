@@ -33,7 +33,7 @@ export function AppShell() {
         </nav>
         <div className="m-3 rounded-lg border border-sidebar-border p-3 text-xs text-muted-foreground">
           <div className="mb-1 font-medium text-foreground">DeceptIQ</div>
-          <div className="mt-1">AI-Powered Digital Deception Defense</div>
+          <div className="mt-1">Digital Deception Defense</div>
         </div>
       </aside>
 
